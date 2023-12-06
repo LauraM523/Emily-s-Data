@@ -6,11 +6,9 @@ raw <- read.csv("C:/Users/laura/Github/Emily-Data/fallarmyworm_rawdata - r_analy
 View(raw)
 
 
-
 library(ggplot2)
 library(dplyr)
 library(tidyverse)
-library
 
 
 worm <- aov(raw$percent_growth_rate_worm~raw$Treatment)
